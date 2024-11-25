@@ -33,7 +33,7 @@ yesterday = datetime.now() - timedelta(days=1)
 location = 'us-east1' # cloud composer location
 
 # webhook url for slack app that will send messages to assigned channels or profiles
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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" 
+SLACK_WEBHOOK_URL = "" 
 
 
 default_args = {
